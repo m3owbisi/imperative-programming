@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <conio.h>
+
+void main() {
+    int number,i;
+    long long factorial = 1; // Use long long to handle large factorials
+    clrscr();
+
+    printf("Enter a non-negative integer: ");
+    scanf("%d", &number);
+
+    if (number < 0) 
+    {
+        printf("Factorial is not defined for negative numbers.\n");
+    }
+    else  
+    {
+        for (i = 1; i <= number; i++) 
+       {
+            factorial *= i;
+        }
+        printf("Factorial of %d = %lld\n", number, factorial);
+    }
+    getch();
+    return 0;
+}
