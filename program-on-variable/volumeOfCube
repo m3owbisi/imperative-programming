@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	//variable declaration
+	float side, volume;
+	clrscr();
+	printf(“Enter the value of side of cube : ”);
+	scanf(“%f”, &radius);
+	volume = side * side * side;
+	printf(“Volume of cube is ”,volume);
+	getch();
+return 0;
+}

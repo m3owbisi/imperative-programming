@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	//variable declaration
+	float side;
+	clrscr();
+	printf(“Enter the value of side of square : ”);
+	scanf(“%f”, &side);
+	area = side * side;
+	printf(“Area of Square is ”,area);
+	getch();
+return 0;
+}

@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	//variable declaration
+	float pie = 3.14;
+	float radius, volume, height;
+	clrscr();
+	printf(“Enter the value of radius of sphere : ”);
+	scanf(“%f”, &radius);
+	volume = pie * radius * radius * radius * 4 / 3;
+	printf(“Volume of sphere is ”,volume);
+	getch();
+return 0;
+}

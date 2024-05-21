@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	//variable declaration
+	float pie = 3.14;
+	float radius, volume, height;
+	clrscr();
+	printf(“Enter the value of radius of cylinder : ”);
+	scanf(“%f”, &radius);
+	printf(“Enter the value of height of cylinder : ”);
+	scanf(“%f”, &height);
+	volume = pie * radius * radius * height;
+	printf(“Volume of cylinder is ”,volume);
+	getch();
+return 0;
+}

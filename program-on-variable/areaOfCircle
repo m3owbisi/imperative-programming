@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	//variable declaration
+	float pie = 3.14;
+	float radius, area;
+	clrscr();
+	printf(“Enter the value of radius of circle : ”);
+	scanf(“%f”, &radius);
+	area = pie * radius * radius;
+	printf(“Area of circle is ”,area);
+	getch();
+return 0;
+}
