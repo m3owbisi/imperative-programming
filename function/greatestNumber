@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <conio.h>
+int max(int a,int b);
+void main()
+{
+	int aa,bb,cc;
+	clrscr();
+	printf(“\n Enter 2 numbers : “);
+	scanf(“%d %d”,&aa,&bb);
+	cc = max(aa,bb);
+	printf(“Biggest num is %d”,cc);
+	getch();
+}
+int max(int a, int b)
+{
+	int res;
+	if(a>b)
+	{
+		res = a;
+	}
+	else
+	{
+		res = b;
+	}
+	return res; 
+}
