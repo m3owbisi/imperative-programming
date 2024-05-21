@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	//Student Data
+	int studentID = 15;
+	int studentAge = 20;
+	float studentFee = 30.6;
+	char studentGrade = “A” 
+	clrscr();
+	printf(“Student id: %d”, studentID);
+	printf(“Student Age: %d”, studentAge);
+	printf(“Student Fee %f”,studentFee);
+	printf(“Student Grade %f”,studentGrade);
+	getch();
+return 0;
+}

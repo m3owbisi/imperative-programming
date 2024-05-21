@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	float a = 10.1;
+	float b = 20.2;
+	float c = 30.3;
+	float d = 40.4;
+	clrscr();
+	printf(“The value of a is %f”,a);
+	printf(“The value of b is %f”,b);
+	printf(“The value of c is %f and The value of d is %f”,c,d);
+	getch();
+	return 0;
+}
