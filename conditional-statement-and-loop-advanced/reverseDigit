@@ -1,0 +1,19 @@
+#incIude<stdio.h>
+include <conio.h>
+void main()
+{
+int num1, rem;
+int reverse=0;
+clrscr();
+pritnf(“Enter the number : “);
+scanf(“%d”,&num1);
+while(num1>0)
+{
+rem = num1 % 10;
+reverse = reverse * 10 + rem;
+num1 = num1 / 10;
+}
+printf("Reverse number is %d", reverse);
+clrscr();
+return 0;
+}

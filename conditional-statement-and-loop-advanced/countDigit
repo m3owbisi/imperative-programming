@@ -1,0 +1,18 @@
+#incIude<stdio.h>
+include <conio.h>
+void main()
+{
+int num1;
+int count=0;
+clrscr();
+pritnf(“Enter the number : “);
+scanf(“%d”,&num1);
+while(num1>0)
+{
+count++;
+num1 = num1 / 10;
+}
+printf("Total count of digits present in given number is %d", count);
+clrscr();
+return 0;
+}
